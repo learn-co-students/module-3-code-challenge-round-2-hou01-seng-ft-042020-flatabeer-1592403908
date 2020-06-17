@@ -34,7 +34,6 @@ function changeDescription(beer){
 
     form.addEventListener('submit', e => {
         e.preventDefault();
-
         const input = form[0].value;
         const options = {
             method:'PATCH',
@@ -56,7 +55,6 @@ function addReview(beer){
     const form = document.querySelector('.review-form');
     form.addEventListener('submit', e => {
         e.preventDefault();
-         console.log("submit")
         const input = form[0];
         const li = document.createElement('li');
         li.textContent = input.value
