@@ -9,9 +9,6 @@ fetch(url)
 });
 
 function showBeer(data){
-    // document.querySelector('.reviews li').remove
-    // document.querySelector('.reviews li').remove
-
     const beerImage = document.querySelector('.beer-details img')
     beerImage.src = data.image_url
 
